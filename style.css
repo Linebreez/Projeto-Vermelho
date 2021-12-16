@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size:1.2vw;
+}
+body{
+  height:100vh;
+  background-image: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:3e5bdfff-8c40-42c0-8fd9-125ed8881d4e;revision=0?component_id=2aa22924-402c-4d35-bcf9-2acd27754d88&api_key=CometServer1&access_token=1635345821_urn%3Aaaid%3Asc%3AUS%3A3e5bdfff-8c40-42c0-8fd9-125ed8881d4e%3Bpublic_b0a5f8d1710f3cb333db6673c8786721e59a0e0b");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.logo-witcher{
+  height:4vw;
+  padding-right: 3vw;
+}
+.container-header{
+  display:flex;
+  justify-content: space-between; 
+  height:20vh;
+}
+.box-img-logo{
+  display:flex;
+  align-items:center;
+  padding-left: 10vw;
+}
+nav{
+  display: flex;
+}
+ul{
+  display:flex;
+  list-style:none;
+  align-items:center;
+  padding-right: 5vw;
+}
+li{
+  padding-right:2vw;
+}
+li:hover{
+  cursor: pointer;
+  font-weight:900;
+}
+main{
+  height: 86vh;
+  background-image:url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:3e5bdfff-8c40-42c0-8fd9-125ed8881d4e;revision=0?component_id=7a8c854a-a5c6-4f77-bb53-8c7f1154222c&api_key=CometServer1&access_token=1635345821_urn%3Aaaid%3Asc%3AUS%3A3e5bdfff-8c40-42c0-8fd9-125ed8881d4e%3Bpublic_b0a5f8d1710f3cb333db6673c8786721e59a0e0b");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position:bottom;
+}
+.container-images-main{
+/*   background-color:green; */
+  height:86vh;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15vh;
+}
+.logo-completa-the-witcher{
+  width: 16vw;
+}
+.img-button{
+  width: 12vw;
+  padding-top:3vh;
+}
+.img-button:hover{
+  cursor:pointer;
+}
